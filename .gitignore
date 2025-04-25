@@ -1,0 +1,43 @@
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+
+# Archivos de configuración sensibles
+.env
+.env.*
+
+# Archivos de log
+*.log
+
+# Archivos de bases de datos locales
+*.sqlite3
+
+# Archivos de sistema (MacOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Dependencias de Node (si estás usando Serverless o algún otro)
+node_modules/
+
+# Archivos generados por herramientas de CI/CD
+*.swp
+*.swo
+
+# Carpetas temporales
+tmp/
+temp/
+
+# IDEs y editores (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+*.iml
+
+# Serverless framework
+.serverless/
