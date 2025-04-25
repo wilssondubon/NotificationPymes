@@ -2,5 +2,5 @@ def handler(event, context):
     print(event);
     return {
         'statusCode': 200,
-        'body': 'Notificacion enviada (aun no implementado)'
+        'body': 'Notificacion enviada (aun no implementado) que tal?'
     }
